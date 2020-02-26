@@ -1,0 +1,84 @@
+{
+  "id": "8ae7b8e0-784b-4b70-b014-a34c6d91369c",
+  "actor": {
+    "objectType": "Agent",
+    "name": "Jeremy Taylor",
+    "account": {
+      "homePage": "https://audio-video.xapiapps.com/k",
+      "name": "82f6a496-0717-f9e0-ef30-6688247aa3f9"
+    }
+  },
+  "verb": {
+    "id": "http://adlnet.gov/expapi/verbs/terminated",
+    "display": {
+      "und": "terminated"
+    }
+  },
+  "object": {
+    "objectType": "Activity",
+    "id": "https://audio-video.xapiapps.com/xapi/def/embedly/83cc4a95-ffa1-c28a-2512-ebeae3fdfc2e*ROOT",
+    "definition": {
+      "name": {
+        "en-US": "Old Friend"
+      },
+      "description": {
+        "en-US": "Old Friend"
+      },
+      "type": "http://activitystrea.ms/schema/1.0/video",
+      "extensions": {
+        "http://id.tincanapi.com/extension/duration": "PT02M38.021S"
+      }
+    }
+  },
+  "result": {
+    "extensions": {
+      "https://w3id.org/xapi/video/extensions/time": "PT02M38.021S",
+      "https://w3id.org/xapi/video/extensions/progress": 100,
+      "https://w3id.org/xapi/video/extensions/played-segments": "0.248[.]155.05"
+    }
+  },
+  "context": {
+    "registration": "a9d3bcb3-a2ec-48ae-b33b-d67062e60435",
+    "contextActivities": {
+      "parent": [
+        {
+          "objectType": "Activity",
+          "id": "https://audio-video.xapiapps.com/xapi/def/paths/83cc4a95-ffa1-c28a-2512-ebeae3fdfc2e",
+          "definition": {
+            "name": {
+              "en-US": "VIDEO 1"
+            },
+            "type": "https://xapiapps.com/xapi/activitytype/path"
+          }
+        }
+      ],
+      "other": [
+        {
+          "objectType": "Activity",
+          "id": "https://audio-video.xapiapps.com/xapi/def/tasks/b5ac58b9-af0b-4721-b016-8ced273f3800*ROOT",
+          "definition": {
+            "name": {
+              "en-US": "Old Friend"
+            },
+            "type": "https://xapiapps.com/xapi/activitytype/task"
+          }
+        }
+      ]
+    },
+    "extensions": {
+      "https://w3id.org/xapi/video/extensions/completion-threshold": 0.98,
+      "https://w3id.org/xapi/video/extensions/length": "PT02M38.021S"
+    }
+  },
+  "timestamp": "2020-02-25T19:24:15.382Z",
+  "stored": "2020-02-25T19:24:20.084Z",
+  "authority": {
+    "objectType": "Agent",
+    "name": "xapiapps",
+    "account": {
+      "homePage": "https://watershedlrs.com",
+      "name": "534a21aa-fd19-4e66-8c1f-6a6974a7185f"
+    }
+  },
+  "version": "1.0.0"
+}
